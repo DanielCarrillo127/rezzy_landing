@@ -9,6 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
 body {
     font-family: $font;
     font-weight: normal;
