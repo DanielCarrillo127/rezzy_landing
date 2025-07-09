@@ -1,0 +1,15 @@
+# Ignore build/output folders
+dist/
+build/
+
+# Ignore log files and system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignore environment/config files
+.env
+.env.local
+
+# Ignore the 'base' folder
+base/

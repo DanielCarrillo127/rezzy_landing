@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Página no encontrada - Rezzy App</title>
+
+  <!-- SEO -->
+  <meta name="robots" content="noindex, follow" />
+  <meta name="description"
+    content="Ups... Esta página no existe. Regresa al inicio de Rezzy y descubre cómo reservar en salones y spas en Colombia." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Página no encontrada - Rezzy App" />
+  <meta property="og:description"
+    content="La página que buscas no existe. Visita el inicio de Rezzy, tu app para reservar citas de belleza en Colombia." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://tusitio.com/404" />
+  <meta property="og:image" content="https://tusitio.com/assets/images/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Página no encontrada - Rezzy App" />
+  <meta name="twitter:description"
+    content="Regresa al inicio y sigue explorando cómo reservar en salones, spas y barberías con Rezzy." />
+  <meta name="twitter:image" content="https://tusitio.com/assets/images/twitter-card.jpg" />
+
+  <!-- Canonical (opcional en 404) -->
+  <link rel="canonical" href="https://tusitio.com/" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="assets/favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- ========================= CSS ========================= -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-icon">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Error Area -->
+  <div class="error-area">
+    <div class="d-table">
+      <div class="d-table-cell">
+        <div class="container">
+          <div class="error-content">
+            <h1>404</h1>
+            <h2>La página que buscabas<br> no existe o fue eliminada.</h2>
+            <div class="button mt-4">
+              <a href="index.html" class="btn">Volver al inicio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Error Area -->
+
+  <!-- ========================= JS ========================= -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/tiny-slider.js"></script>
+  <script src="assets/js/glightbox.min.js"></script>
+
+  <script>
+    window.onload = function () {
+      window.setTimeout(fadeout, 500);
+    }
+
+    function fadeout() {
+      document.querySelector('.preloader').style.opacity = '0';
+      document.querySelector('.preloader').style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>
