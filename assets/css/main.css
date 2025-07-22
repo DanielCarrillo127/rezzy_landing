@@ -2315,9 +2315,15 @@ only screen and (min-width: 1400px) {
     margin-top: 40px;
   }
 }
+
+@media (max-width: 991px) {
+  .freatures .image img {
+    width: 700px !important;
+    left: 0px !important;
+  }
+}
+
 @media (max-width: 1199px) {
-
-
   .freatures .image img {
     width: 700px !important;
     left: -120px;
@@ -4501,7 +4507,7 @@ only screen and (min-width: 1400px) {
   background-color: #F4F7FA;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .faq .xs-margin {
     margin-top: 20px !important;
   }
