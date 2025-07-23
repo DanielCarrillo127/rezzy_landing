@@ -4,7 +4,7 @@
 DOMAIN="https://rezzyapp.co"
 
 # Ruta donde están tus archivos HTML
-WEB_ROOT="/var/www/html/landing"
+WEB_ROOT="/var/www/html/rezzy_landing"
 
 # Fecha actual en formato ISO
 TODAY=$(date +"%Y-%m-%d")
