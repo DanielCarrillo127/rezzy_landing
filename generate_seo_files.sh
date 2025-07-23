@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configura tu dominio aquí (con https:// incluido)
-DOMAIN="https://..."
+DOMAIN="https://rezzyapp.co"
 
 # Ruta donde están tus archivos HTML
 WEB_ROOT="/var/www/html/landing"
